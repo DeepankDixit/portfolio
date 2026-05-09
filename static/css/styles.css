@@ -470,11 +470,10 @@ section {
 
 .project-card-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
+  min-height: 1.75rem;
 }
-
-.project-icon { font-size: 1.75rem; line-height: 1; }
 
 .project-links {
   display: flex;
